@@ -1,4 +1,4 @@
-fork()与unix哲学，A MAX_PATH On Your Path
+# fork()与unix哲学，A MAX_PATH On Your Path
 
 “到fork()这里就不讲unix哲学了，招笑”
 
