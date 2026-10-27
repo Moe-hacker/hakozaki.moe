@@ -19,3 +19,33 @@
 ![](/img/alldinner.jpg)
 
 众所周知，传播某个群体和雌二醇与精神疾病的关联而非这个群体对于正常生活的渴望并不会让这个群体更受尊重；像我一样整天编写神人小作文来给大家带来emotional damage并不能让自己更受欢迎，同样的，指着实现细节大谈特谈先进却不去给人们展示具体的工程项目并不能让路人对这个语言更有好感。值得注意的是，真正的大神不一定非得用rust才能构建出安全的程序，正如我不磕雌二醇就能写出如此震撼美味的文字。如果我没有社交更不谈恋爱的话，我为什么要在意自己有没有魔丸。如果一个程序它作为管理员工具根本不会被不受信任的调用，那我们为什么要偏执的认为它需要多么理论安全，却把真正的兼容性事故风险推给用户。如果一个人只爱没有魔丸的对方，却全然不顾蛋宰派对的健康危害，那么他是否真的值得。如果一个人只顾先进与进化却全然不顾稳定性与其他维度的安全性，那么他是否真的有作为开发者的担当。在性别认知都可以不再二元的同时，去把语言二分为先进与落后，这究竟是否可以称之为进步，而在真实的开发工作中，我们又想写出怎样的程序，喵出怎样的呜哇呢？总之350234非常有格调非常好看，大家一定要去看喵！
+
+
+update 28/Oct/2026:
+
+尼玛的半夜两点我测试CI的定时任务炸了，一看内容：
+
+```
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 0, Not Upgrading: 89
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package qemu-user-static is a virtual package provided by:
+  qemu-user-binfmt-hwe 1:10.2.1+ds-1ubuntu4.4
+  qemu-user-binfmt 1:10.2.1+ds-1ubuntu3.3
+
+Error: Package 'qemu-user-static' has no installation candidate
+Process completed with exit code 100.
+```
+
+~~（把我叫起来就为这点事啊）~~
+
+旮旯game里不是这样的，你怎么把我包直接送进凉爽的夏夜啊！！！！！
+
+无语，典型的地雷思维。
+
+往好里想，它是在我起飞完才炸的，至少没让我这位ADHD老机长坠机。。。。。。
